@@ -1,5 +1,5 @@
 # SubaWordpress-Android-Studio
-Wordpress REST API with Android Studio Java
+Wordpress REST API with Android Studio Java, Example of using wordpress self hosted to Android Studio Java project.
 
 <h2>Wordpress Side</h2>
 1. Wordpress Self Hosted (wordpress.org)<br/>
