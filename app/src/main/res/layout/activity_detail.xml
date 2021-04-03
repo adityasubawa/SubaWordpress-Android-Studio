@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/post_featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:adjustViewBounds="true"
+            android:background="#ffffff"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_image_black"
+            />
+
+            <TextView
+            android:id="@+id/post_content"
+            android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars = "vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Load Content..."
+                android:textAppearance="@android:style/TextAppearance" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
